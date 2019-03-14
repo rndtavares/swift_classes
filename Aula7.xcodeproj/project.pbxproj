@@ -13,6 +13,10 @@
 		A59151EC223ACF5E0062D971 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A59151EB223ACF5E0062D971 /* Assets.xcassets */; };
 		A59151EF223ACF5E0062D971 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A59151ED223ACF5E0062D971 /* LaunchScreen.storyboard */; };
 		A59151F7223AD5C80062D971 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59151F6223AD5C80062D971 /* ItemTableViewCell.swift */; };
+		A59151F9223AE25F0062D971 /* DogTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A59151F8223AE25F0062D971 /* DogTableViewCell.xib */; };
+		A59151FB223AE45B0062D971 /* DogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59151FA223AE45B0062D971 /* DogTableViewCell.swift */; };
+		A59151FD223AE5DA0062D971 /* CatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A59151FC223AE5DA0062D971 /* CatTableViewCell.xib */; };
+		A5915201223AE7BB0062D971 /* CatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5915200223AE7BB0062D971 /* CatTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		A59151EE223ACF5E0062D971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A59151F0223ACF5E0062D971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A59151F6223AD5C80062D971 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		A59151F8223AE25F0062D971 /* DogTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DogTableViewCell.xib; sourceTree = "<group>"; };
+		A59151FA223AE45B0062D971 /* DogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogTableViewCell.swift; sourceTree = "<group>"; };
+		A59151FC223AE5DA0062D971 /* CatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CatTableViewCell.xib; sourceTree = "<group>"; };
+		A5915200223AE7BB0062D971 /* CatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				A59151EB223ACF5E0062D971 /* Assets.xcassets */,
 				A59151ED223ACF5E0062D971 /* LaunchScreen.storyboard */,
 				A59151F0223ACF5E0062D971 /* Info.plist */,
+				A59151F8223AE25F0062D971 /* DogTableViewCell.xib */,
+				A59151FA223AE45B0062D971 /* DogTableViewCell.swift */,
+				A59151FC223AE5DA0062D971 /* CatTableViewCell.xib */,
+				A5915200223AE7BB0062D971 /* CatTableViewCell.swift */,
 			);
 			path = Aula7;
 			sourceTree = "<group>";
@@ -126,7 +138,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A59151EF223ACF5E0062D971 /* LaunchScreen.storyboard in Resources */,
+				A59151FD223AE5DA0062D971 /* CatTableViewCell.xib in Resources */,
 				A59151EC223ACF5E0062D971 /* Assets.xcassets in Resources */,
+				A59151F9223AE25F0062D971 /* DogTableViewCell.xib in Resources */,
 				A59151EA223ACF5C0062D971 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +154,8 @@
 			files = (
 				A59151E7223ACF5C0062D971 /* ViewController.swift in Sources */,
 				A59151F7223AD5C80062D971 /* ItemTableViewCell.swift in Sources */,
+				A5915201223AE7BB0062D971 /* CatTableViewCell.swift in Sources */,
+				A59151FB223AE45B0062D971 /* DogTableViewCell.swift in Sources */,
 				A59151E5223ACF5C0062D971 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
