@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  Aula5
+//  Aula11
 //
-//  Created by LOWCOST on 11/03/2019.
-//  Copyright © 2019 PS. All rights reserved.
+//  Created by Ronaldo Tavares da Silva on 28/03/19.
+//  Copyright © 2019 Ronaldo Tavares da Silva. All rights reserved.
 //
 
 import UIKit
